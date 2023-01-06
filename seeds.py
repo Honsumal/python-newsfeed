@@ -14,6 +14,7 @@ db.add_all([
   User(username='iboddam2', email='cstoneman2@last.fm', password='password123'),
   User(username='dstanmer3', email='ihellier3@goo.ne.jp', password='password123'),
   User(username='djiri4', email='gmidgley4@weather.com', password='password123')
+  User(username='roomba', email='randow@gmail.com', password='password123')
 ])
 
 db.commit()
@@ -25,6 +26,7 @@ db.add_all([
   Post(title='Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue', post_url='https://europa.eu/parturient/montes/nascetur/ridiculus/mus/etiam/vel.aspx', user_id=2),
   Post(title='Nunc purus', post_url='http://desdev.cn/enim/blandit/mi.jpg', user_id=3),
   Post(title='Pellentesque eget nunc', post_url='http://google.ca/nam/nulla/integer.aspx', user_id=4)
+  Post(title='Flying Fish', post_url='www.google.com')
 ])
 
 db.commit()
